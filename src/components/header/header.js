@@ -6,7 +6,7 @@ export const Header = () => {
 		<header>
       <div>
         <div className='topNav'>
-        <Image src={'/images/rotw-logo.png'} width={75} height={75} />
+        <Image alt="image" src={'/images/rotw-logo.png'} width={75} height={75} />
           <nav> 
             <ul>
               <li>
