@@ -36,7 +36,7 @@ export default function Home({ data }) {
 
 //fetch the json data using server side call that will pass to the home function
 export async function getServerSideProps() {
-  const {events_categories} = await import('/data/data.json');
+  const {events_categories} = await import('../data/data.json');
   return {
     props:{
       data: events_categories,
